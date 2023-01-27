@@ -1,0 +1,54 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("pictures/background.jpg");
+    background-repeat: repeat-y;
+}
+
+a:link {
+    color: rgb(208, 20, 195);
+}
+
+a:visited {
+    color: rgb(82, 5, 137);
+}
+
+a:hover {
+    color: rgb(238, 213, 229);
+}
+
+nav {
+    width: 25%;
+    background-color:rgb(236, 164, 211)
+}
+
+h1 {
+    color: rgb(118, 10, 80);
+    font-size: 2em;
+}
+
+ul#mainNav {
+    list-style-type: none; /* gets rid of the bullets */
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    line-height: 2.5em;
+}
+
+h3 {
+    text-decoration: overline;
+  }
+
+  div.a {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  div.b {
+    text-align: left;
+    height: 50%;
+    width: 75%;
+  }
