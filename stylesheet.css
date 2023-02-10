@@ -1,54 +1,72 @@
+* {margin: 0; padding: 0;}
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url("pictures/background.jpg");
     background-repeat: repeat-y;
 }
-
+#wrapper{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+header {
+    width: 80%;
+    margin: 0%;
+    padding: 10%;
+}
+footer {
+    width: 80%;
+    margin: 0%;
+    padding: 5%;
+}
 a:link {
     color: rgb(208, 20, 195);
 }
-
 a:visited {
     color: rgb(82, 5, 137);
 }
-
 a:hover {
     color: rgb(238, 213, 229);
 }
-
 nav {
-    width: 25%;
-    background-color:rgb(236, 164, 211)
+    width: 90%;
+    margin: 5%;
+    padding: 10%;
+    background-color:rgb(236, 164, 211);
+    position: relative;
 }
-
 h1 {
     color: rgb(118, 10, 80);
     font-size: 2em;
 }
-
 ul#mainNav {
     list-style-type: none; /* gets rid of the bullets */
+    position: absolute;
+    z-index: 1;
 }
-
-img {
-    width: 100%;
-}
-
+li {
+    display: inline;
+  }
 p {
     line-height: 2.5em;
 }
-
 h3 {
     text-decoration: overline;
   }
-
   div.a {
     text-align: center;
     text-transform: uppercase;
   }
-
   div.b {
     text-align: left;
     height: 50%;
     width: 75%;
+  }
+  .columns {
+    float: left;
+    width: 50%;
+    overflow: auto;
+  }
+  #cat{
+    width: 100%;
   }
