@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="skeleton.css" rel="stylesheet" type="text/css">
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet"> -->
     <title>Sandbox</title>
 </head>
-<body> <!--this is how you comment in html-->
-    <div id="wrapper">
+<body>
     <header>
     <h1>Emma Owsen | DSGN 360 | Winter 2023</h1>
     <nav>
@@ -26,22 +27,23 @@
     <hr>
     <section>
         <article>
-            <div class="a"> 
-            <h2>Sandbox</h2>
-            </div>
-            <div class="b">
-            <h3>About Me</h3>
-                <div class="columns">
-                <p>
-                Hi, my name is Emma Owsen. This is my final year in the Design major, I have finished a minor in Psychology and I’m expecting to graduate in the summer. One of my main interests in design is web and mobile design, and while I have designed and created prototypes for it, I have never done much HTML before, except in a high school class and I barely remember anything from it. So, I think it will be interesting to see what the process is like to making and designing for a functional webpage in HTML and CSS.
-                </p>
-                </div>
-                <div class="columns">
-                <p>
-                Beyond this class, I am starting to gain interest in digital illustration and painting, which I’m really terrible at. Some random facts about me is that I’m left-handed, vegetarian, my favorite color is pink, my favorite music artist is Poppy, I love video games, sleeping, and I love cats. I don’t like taking pictures of myself so I have a pic of my cat, her name is Baby Kit and she’s the best cat ever:
-                </p>
-                </div>
-            <img src="pictures/cat.jpg" id="cat">
+
+            <div class="container">
+                    <div class="row">
+                        <div class="six columns">
+                            <p>Hi, my name is Emma Owsen. This is my final year in the Design major, I have finished a minor in Psychology and I’m expecting to graduate in the summer. One of my main interests in design is web and mobile design, and while I have designed and created prototypes for it, I have never done much HTML before, except in a high school class and I barely remember anything from it. So, I think it will be interesting to see what the process is like to making and designing for a functional webpage in HTML and CSS.</p>
+                        </div>
+                        <div class="row">
+                            <div class="six columns">
+                                <p>Beyond this class, I am starting to gain interest in digital illustration and painting, which I’m really terrible at. Some random facts about me is that I’m left-handed, vegetarian, my favorite color is pink, my favorite music artist is Poppy, I love video games, sleeping, and I love cats. I don’t like taking pictures of myself so I have a pic of my cat, her name is Baby Kit and she’s the best cat ever:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="twelve columns">
+                            <img src="pictures/cat.jpg" id="cat">
+                        </div>
+                    </div>
             </div>
             <hr>
         </article>
