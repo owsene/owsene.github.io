@@ -58,10 +58,10 @@ object-fit: contain;
 }
 
 .quotephoto {
-    width: 200vw;
+    width: 100vw;
     height: 100%;
-    object-fit: contain;
-    /* padding: 20px; */
+    object-fit: cover;
+    padding: 20px;
     }
 
 .text-1, .text-2 {
