@@ -53,3 +53,18 @@ footer {
     margin: 1%;
     padding: 1%;
 }
+
+div .anim {
+    width: 1000px;
+    height: 100px; 
+    background-color: red; 
+    animation-name: tester; 
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    }
+
+@keyframes tester {
+    from {background-color: red;} to {background-color: pink;}
+}
